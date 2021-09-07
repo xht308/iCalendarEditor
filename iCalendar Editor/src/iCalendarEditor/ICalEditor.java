@@ -83,11 +83,11 @@ public class ICalEditor {
 	// Print the welcome screen
 	private static void welcomePrint() {
 		System.out.println(
-				"                                                          ///Simple iCal Editor///                                                                ");
+				"                                                           ///iCalendar Editor///                                                                 ");
 		System.out.println(
 				"--------------------------------------------------------------------------------------------------------------------------------------------------");
 		System.out.println(
-				"                                                    Welcome to use the simple iCal editor                                                         ");
+				"                                                     Welcome to use the iCalendar editor                                                          ");
 		System.out.println(
 				"                       This program can read a .ics file exported from KEANWISE and make it suitable for WKU students to use.                     ");
 		System.out.println(
