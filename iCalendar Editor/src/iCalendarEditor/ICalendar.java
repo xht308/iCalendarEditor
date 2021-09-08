@@ -314,7 +314,7 @@ public class ICalendar implements Cloneable {
 	public String exportICSFormat() {
 		// Calendar header
 		StringBuilder temp = new StringBuilder(
-				"BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//CPS2231Project//SimpleICalEditor//EN\n");
+				"BEGIN:VCALENDAR\nPRODID:-//CPS2231Project//SimpleICalEditor//EN\nVERSION:2.0\n");
 		// Connect each event in the calendar
 		for (CalContent calContent : content) {
 			temp.append(calContent.exportICSFormat());
@@ -327,7 +327,7 @@ public class ICalendar implements Cloneable {
 	// Purpose: Directly write the calendar to the output file
 	public void exportToFile(PrintWriter output) {
 		// Calendar header
-		output.println("BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//CPS2231Project//SimpleICalEditor//EN");
+		output.println("BEGIN:VCALENDAR\nPRODID:-//CPS2231Project//SimpleICalEditor//EN\nVERSION:2.0");
 		// Connect each event in the calendar
 		for (CalContent calContent : content) {
 			calContent.exportToFile(output);
