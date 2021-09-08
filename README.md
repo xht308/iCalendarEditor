@@ -21,9 +21,8 @@ Place the downloaded file at a directory that you can easily find.
 
 Open the terminal (cmd or PowerShell for Windows) on the computer the following command to run the program.
 
+```
+java -jar PATH_TO_YOUR_DOWNLOADED_JAR_FILE
+```
+
 Notice: PATH_TO_YOUR_DOWNLOADED_JAR_FILE should be replaced by your own path to the downloaded iCalendarEditor.jar file
-
-```
-java -jre PATH_TO_YOUR_DOWNLOADED_JAR_FILE
-```
-
